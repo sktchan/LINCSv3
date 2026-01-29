@@ -1,12 +1,12 @@
 # dataset
-data_path = "data/lincs_trt_untrt_data.jld2"
-dataset = "trt"
-# data_path = "data/lincs_untrt_data.jld2"
-# dataset = "untrt"
+# data_path = "data/lincs_trt_untrt_data.jld2"
+# dataset = "trt"
+data_path = "data/lincs_untrt_data.jld2"
+dataset = "untrt"
 
 # params
-batch_size = 140
-n_epochs = 1
+batch_size = 64
+n_epochs = 10
 embed_dim = 128
 drop_prob = 0.05
 lr = 0.001
@@ -27,8 +27,8 @@ latent_3 = 246
 # latent_3 = 150
 
 # notes
-gpu_info = "smaug"
-additional_notes = "test run for batchsize"
+gpu_info = "kraken"
+additional_notes = "test run for nmacros"
 
 # matrix types
 const IntMatrix2DType = Union{Array{Int64}, CuArray{Int32, 2}, CuMatrix{Int64}, DenseCuMatrix{Int64}}

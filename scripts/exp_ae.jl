@@ -12,7 +12,7 @@ include("../src/save.jl")
 CUDA.device!(0)
 
 start_time = now()
-data = load(data_path)["filtered_data"]
+data = JLD2.load(data_path)["filtered_data"]
 
 X = data.expr
 
@@ -275,6 +275,20 @@ log_info(train_indices, test_indices, nothing, n_epochs,
                     X_test_masked, y_test_masked, X_test)
 
 
-log_params(gpu_info, dataset, mask_ratio, batch_size, n_epochs, 
+log_ae_params(gpu_info, dataset, mask_ratio, batch_size, n_epochs, 
                     embed_dim, hidden_dim, n_heads, n_layers, lr, drop_prob, 
                     additional_notes, run_hours, run_minutes)
+
+
+
+
+# # here we will test nmacros :DDDDD
+# note: i cannot get @nmacros to work after jubox import :(
+
+# using JuBox
+
+# @nscatter begin
+#     y1 = train_losses
+#     y2 = test_losses
+#     x = n_epochs
+# end

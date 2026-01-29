@@ -2567,3 +2567,191 @@ Info Given StatsFunsInverseFunctionsExt was explicitly requested, output will be
 ┌ Warning: Module Colors with build ID ffffffff-ffff-ffff-d795-1a80f12d68f4 is missing from the cache.
 │ This may mean Colors [5ae59095-9a9b-59fe-a467-6f913c188581] does not support precompilation but is imported by a module that does.
 └ @ Base loading.jl:2541
+  1 dependency successfully precompiled in 3 seconds. 18 already precompiled.
+  9 dependencies precompiled but different versions are currently loaded. Restart julia to access the new versions. Otherwise, loading dependents of these packages may trigger further precompilation to work with the unexpected versions.
+  9 dependencies failed but may be precompilable after restarting julia
+  9 dependencies had output during precompilation:
+┌ LogExpFunctions
+│  ┌ Warning: Module DocStringExtensions with build ID fafbfcfd-d7ec-7e31-e0c8-a4aac54c1b0c is missing from the cache.
+│  │ This may mean DocStringExtensions [ffbed154-4ef7-542d-bbb7-c09d3a79fcae] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ Rmath
+│  ┌ Warning: Module Rmath_jll with build ID ffffffff-ffff-ffff-84a4-13a8d37bc149 is missing from the cache.
+│  │ This may mean Rmath_jll [f50d1b31-88e8-58de-be2c-1cc44531875f] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ JLLWrappers
+│  ┌ Warning: Module Preferences with build ID fafbfcfd-5715-7f0b-dfbf-a3ffb3c14b07 is missing from the cache.
+│  │ This may mean Preferences [21216c6a-2e73-6563-6e65-726566657250] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ HypergeometricFunctions
+│  ┌ Warning: Module SpecialFunctions with build ID fafbfcfd-3385-8837-42ad-512bc4e067e3 is missing from the cache.
+│  │ This may mean SpecialFunctions [276daf66-3868-5448-9aa4-cd146d93841b] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ InverseFunctions → InverseFunctionsDatesExt
+│  ┌ Warning: Module InverseFunctions with build ID fafbfcfd-7aca-00ac-0f69-b411ccf2c948 is missing from the cache.
+│  │ This may mean InverseFunctions [3587e190-3f89-42d0-90ee-14403ec27112] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ StatsFuns
+│  ┌ Warning: Module Reexport with build ID fafbfcfd-6ea4-e9d5-1501-d66fd8833cfa is missing from the cache.
+│  │ This may mean Reexport [189a3867-3050-52da-a836-e630ba90ab69] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ StatsFuns → StatsFunsInverseFunctionsExt
+│  [Output was shown above]
+└  
+┌ Rmath_jll
+│  ┌ Warning: Module JLLWrappers with build ID fafbfcfd-53d2-2758-fb4f-8d5d5ef5a7f8 is missing from the cache.
+│  │ This may mean JLLWrappers [692b3bcd-3c85-4b1f-b108-f13ce0eb3210] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ LogExpFunctions → LogExpFunctionsInverseFunctionsExt
+│  ┌ Warning: Module LogExpFunctions with build ID fafbfcfd-9735-c4e3-60d8-c7bc8e22ad9e is missing from the cache.
+│  │ This may mean LogExpFunctions [2ab3a3ac-af41-5b50-aa03-7779005ae688] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+Precompiling StatsFunsChainRulesCoreExt...
+    644.3 ms  ? Compat → CompatLinearAlgebraExt
+    691.9 ms  ? JLLWrappers
+    677.2 ms  ? LogExpFunctions
+    637.7 ms  ? Rmath_jll
+    647.9 ms  ? HypergeometricFunctions
+    643.7 ms  ? Rmath
+    636.2 ms  ? StatsFuns
+Info Given StatsFunsChainRulesCoreExt was explicitly requested, output will be shown live [0K
+[0K┌ Warning: Module StatsFuns with build ID ffffffff-ffff-ffff-ab2e-271593a5ff1e is missing from the cache.
+[0K│ This may mean StatsFuns [4c63d2b9-4356-54db-8cca-17b64c39e42c] does not support precompilation but is imported by a module that does.
+[0K└ @ Base loading.jl:2541
+    645.5 ms  ? StatsFuns → StatsFunsChainRulesCoreExt
+Precompiling QuadGK...
+    649.2 ms  ? Compat → CompatLinearAlgebraExt
+    648.2 ms  ? DataStructures
+Info Given QuadGK was explicitly requested, output will be shown live [0K
+[0K┌ Warning: Module DataStructures with build ID fafbfcfd-1c45-48c6-8302-1a3c5a1097ca is missing from the cache.
+[0K│ This may mean DataStructures [864edb3b-99cc-5e75-8d2d-829cb0a9cfe8] does not support precompilation but is imported by a module that does.
+[0K└ @ Base loading.jl:2541
+    645.0 ms  ? QuadGK
+Precompiling DistributionsTestExt...
+    396.8 ms  ✓ DataAPI
+    850.7 ms  ✓ OrderedCollections
+    904.0 ms  ? AliasTables
+    554.3 ms  ✓ Compat
+    649.1 ms  ? LogExpFunctions
+    671.9 ms  ? JLLWrappers
+    672.9 ms  ? Missings
+    646.4 ms  ? Compat → CompatLinearAlgebraExt
+    650.6 ms  ? Rmath_jll
+    649.7 ms  ? HypergeometricFunctions
+    636.2 ms  ? DataStructures
+    647.4 ms  ? Rmath
+    651.6 ms  ? SortingAlgorithms
+    651.2 ms  ? QuadGK
+    639.9 ms  ? StatsFuns
+    604.6 ms  ? Distributions
+Info Given DistributionsTestExt was explicitly requested, output will be shown live [0K
+[0K┌ Warning: Module Distributions with build ID ffffffff-ffff-ffff-cbb7-c5ebd159c0da is missing from the cache.
+[0K│ This may mean Distributions [31c24e10-a181-5473-b8eb-7969acd0382f] does not support precompilation but is imported by a module that does.
+[0K└ @ Base loading.jl:2541
+    584.8 ms  ? Distributions → DistributionsTestExt
+  3 dependencies successfully precompiled in 5 seconds. 37 already precompiled.
+  16 dependencies precompiled but different versions are currently loaded. Restart julia to access the new versions. Otherwise, loading dependents of these packages may trigger further precompilation to work with the unexpected versions.
+  14 dependencies failed but may be precompilable after restarting julia
+  14 dependencies had output during precompilation:
+┌ Compat → CompatLinearAlgebraExt
+│  ┌ Warning: Module Compat with build ID fafbfcfd-4023-6bb5-43c7-e893ac09e750 is missing from the cache.
+│  │ This may mean Compat [34da2185-b29b-5c13-b0c7-acf172513d20] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ DataStructures
+│  ┌ Warning: Module Compat with build ID fafbfcfd-4023-6bb5-43c7-e893ac09e750 is missing from the cache.
+│  │ This may mean Compat [34da2185-b29b-5c13-b0c7-acf172513d20] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ SortingAlgorithms
+│  ┌ Warning: Module DataStructures with build ID fafbfcfd-1c45-48c6-8302-1a3c5a1097ca is missing from the cache.
+│  │ This may mean DataStructures [864edb3b-99cc-5e75-8d2d-829cb0a9cfe8] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ Distributions
+│  ┌ Warning: Module StatsBase with build ID fafbfcfd-61a8-fe4b-d17a-fbe40c3d2fed is missing from the cache.
+│  │ This may mean StatsBase [2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ Distributions → DistributionsTestExt
+│  [Output was shown above]
+└  
+┌ Missings
+│  ┌ Warning: Module DataAPI with build ID fafbfcfd-1fa5-87de-ea99-52b89440bf9b is missing from the cache.
+│  │ This may mean DataAPI [9a962f9c-6df0-11e9-0e5d-c546b8b5ee8a] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ Rmath
+│  ┌ Warning: Module Rmath_jll with build ID ffffffff-ffff-ffff-84a4-13a8d37bc149 is missing from the cache.
+│  │ This may mean Rmath_jll [f50d1b31-88e8-58de-be2c-1cc44531875f] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ JLLWrappers
+│  ┌ Warning: Module Preferences with build ID fafbfcfd-5715-7f0b-dfbf-a3ffb3c14b07 is missing from the cache.
+│  │ This may mean Preferences [21216c6a-2e73-6563-6e65-726566657250] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ HypergeometricFunctions
+│  ┌ Warning: Module SpecialFunctions with build ID fafbfcfd-3385-8837-42ad-512bc4e067e3 is missing from the cache.
+│  │ This may mean SpecialFunctions [276daf66-3868-5448-9aa4-cd146d93841b] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ QuadGK
+│  ┌ Warning: Module DataStructures with build ID fafbfcfd-1c45-48c6-8302-1a3c5a1097ca is missing from the cache.
+│  │ This may mean DataStructures [864edb3b-99cc-5e75-8d2d-829cb0a9cfe8] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ StatsFuns
+│  ┌ Warning: Module Reexport with build ID fafbfcfd-6ea4-e9d5-1501-d66fd8833cfa is missing from the cache.
+│  │ This may mean Reexport [189a3867-3050-52da-a836-e630ba90ab69] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ Rmath_jll
+│  ┌ Warning: Module JLLWrappers with build ID fafbfcfd-53d2-2758-fb4f-8d5d5ef5a7f8 is missing from the cache.
+│  │ This may mean JLLWrappers [692b3bcd-3c85-4b1f-b108-f13ce0eb3210] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ AliasTables
+│  ┌ Warning: Module PtrArrays with build ID fafbfcfd-a187-2721-3ab9-99c5504218f7 is missing from the cache.
+│  │ This may mean PtrArrays [43287f4e-b6f4-7ad1-bb20-aadabca52c3d] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ LogExpFunctions
+│  ┌ Warning: Module DocStringExtensions with build ID fafbfcfd-d7ec-7e31-e0c8-a4aac54c1b0c is missing from the cache.
+│  │ This may mean DocStringExtensions [ffbed154-4ef7-542d-bbb7-c09d3a79fcae] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+Precompiling DistributionsChainRulesCoreExt...
+    629.5 ms  ? AliasTables
+    652.9 ms  ? Missings
+    635.1 ms  ? Compat → CompatLinearAlgebraExt
+    668.4 ms  ? JLLWrappers
+    650.0 ms  ? LogExpFunctions
+    595.6 ms  ? DataStructures
+    596.4 ms  ? Rmath_jll
+    595.5 ms  ? HypergeometricFunctions
+    600.5 ms  ? QuadGK
+    616.9 ms  ? SortingAlgorithms
+    610.4 ms  ? Rmath
+    590.8 ms  ? StatsFuns
+    586.0 ms  ? StatsFuns → StatsFunsChainRulesCoreExt
+    585.8 ms  ? Distributions
+Info Given DistributionsChainRulesCoreExt was explicitly requested, output will be shown live [0K
+[0K┌ Warning: Module Distributions with build ID ffffffff-ffff-ffff-cbb7-c5ebd159c0da is missing from the cache.
+[0K│ This may mean Distributions [31c24e10-a181-5473-b8eb-7969acd0382f] does not support precompilation but is imported by a module that does.
+[0K└ @ Base loading.jl:2541
+    598.6 ms  ? Distributions → DistributionsChainRulesCoreExt
+  Activating project at `/home/golem/scratch/chans/lincs`
+  Activating project at `/home/golem/scratch/chans/lincs`
+  Activating project at `/home/golem/scratch/chans/lincs`
+0.0%┣                                                ┫ 0/1 [00:03<00:-3, -3s/it]
+[1A100.0%┣███████████████████████████████████████┫ 1/1 [05:27:44<Inf:Inf, InfGs/it]
+[1A100.0%┣███████████████████████████████████████┫ 1/1 [05:27:44<Inf:Inf, InfGs/it]

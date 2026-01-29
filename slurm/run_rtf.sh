@@ -9,7 +9,7 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=256G
 
-#SBATCH --gres=gpu:V100:1
+#SBATCH --gres=gpu:L40S:1
 #SBATCH --time=3-00:00:00
 
 cd /home/golem/scratch/chans/lincsv3

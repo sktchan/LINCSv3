@@ -299,6 +299,6 @@ log_info(train_indices, test_indices, nothing, n_epochs,
                     avg_errors, nothing, nothing, X_test)
 
 
-log_params(gpu_info, dataset, mask_ratio, batch_size, n_epochs, 
+log_ae_params(gpu_info, dataset, mask_ratio, batch_size, n_epochs, 
                     embed_dim, hidden_dim, n_heads, n_layers, lr, drop_prob, 
                     additional_notes, run_hours, run_minutes)

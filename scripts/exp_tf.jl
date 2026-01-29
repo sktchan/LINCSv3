@@ -314,6 +314,6 @@ log_info(train_indices, test_indices, nothing, n_epochs,
                     X_test_masked, y_test_masked, X_test)
 
 
-log_params(gpu_info, dataset, mask_ratio, batch_size, n_epochs, 
+log_tf_params(gpu_info, dataset, mask_ratio, batch_size, n_epochs, 
                     embed_dim, hidden_dim, n_heads, n_layers, lr, drop_prob, 
                     additional_notes, run_hours, run_minutes)
